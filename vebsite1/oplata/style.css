@@ -1,0 +1,341 @@
+body{
+margin: 0;
+}
+
+.h1{
+    justify-content: center;
+    text-align: center;
+    margin-top: 23px;
+}
+.maps-block{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    padding: 0px 70px 0px 30px;
+
+}
+.maps{
+    height: 100%;
+    width: 100%;
+    border-radius: 24px 24px 24px 24px;
+    box-shadow: black;
+}
+.sub_block{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.name{
+    height: 20px;
+    width: 180px;
+    font-size: 15px;
+}
+
+.address{
+    height: 20px;
+    width: 180px;
+    font-size: 15px;
+}
+
+hr {
+    width: 60%;
+    height: 10px;
+    background-color: #FFD700;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-color: #FFD700;
+}
+
+.dostavka{
+   margin-top:55px ;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(144, 255, 119, 0.4);;
+}
+.h1-dost{
+    font-size: 36px;
+
+}
+.p-dost{
+    position: relative;
+    font-size: 18px;
+    line-height: 1.55em;
+    color: #2a2a2a;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.oplata{
+    margin: 10px 50px 50px 140px;
+    padding: 10px 20px 10px 20px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.h1-oplata{
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+
+
+
+.image-op{
+    position: relative;
+
+}
+
+.price{
+   margin-bottom: -120px;
+    margin-left: -50px;
+    z-index: 2;
+
+}
+
+.price-194{
+    padding-top: 20px; // arbitrary value
+    padding-right: 20%; // arbitrary value
+
+
+}
+
+.text-op1{
+    margin-left:9px;
+    margin-top: -1px;
+    padding-right: 60px;
+}
+.text-op2{
+    margin-left:9px;
+    margin-top: -1px;
+    padding-right: 60px;
+}
+.text-op3{
+    margin-left:9px;
+    margin-top: -1px;
+    padding-right: 60px;
+}
+.p-opl1{
+    font-size: 18px;
+}
+
+.icon2{
+  width: 50px;
+    margin-left: 3px;
+    margin-bottom: 6px;
+}
+.icon3{
+    margin-left: -5px;
+
+}
+.price-1943{
+    margin-bottom: 5px;
+    margin-top: 12px;
+}
+
+
+.plus-dostavka{
+    margin-top:55px ;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+.img-povar{
+    width: 100px;
+    height: 100px;
+    margin-left: 550px;
+    margin-bottom: -82px;
+}
+
+.p-plus-dostavka{
+    font-size: 20px;
+}
+
+.ul-plus{
+    font-size: 20px;
+    background-color: rgba(255, 82, 50, 0.4);
+
+
+}
+.li-plus{
+    padding: 10px 0px 10px 0px;
+    list-style-type: none;
+
+}
+.li-plus:before {
+    content: "\2022"; /* юникод точки */
+    color: #FF4500;
+    font-weight: bold;
+}
+
+
+.img-gif{
+   margin-left: 500px;
+    margin-top: 75px;
+    height: 44px;
+    width: 49px;
+    position: absolute;
+}
+.yak-zam{
+    margin-top:55px ;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+.p-yak-zam{
+    font-size: 20px;
+}
+
+.ul-yak-zam{
+    font-size: 20px;
+    background-color: white;
+}
+
+.li-yak-zam{
+    padding: 10px 0px 10px 0px;
+    list-style-type: none;
+}
+
+.li-yak-zam:before{
+    content: "\2022"; /* юникод точки */
+    color: #FF4500;
+    font-weight: bold;
+}
+
+footer {
+    background: #101010;
+    padding: 86px 0px 0px 0px ;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.single-content {
+
+    text-align: center;
+    padding: 115px 0;
+}
+.single-box p {
+    color: #fff;
+    line-height: 1.9;
+    margin-left: 36px;
+}
+
+.single-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+.single-box .card-area i {
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+
+.single-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.single-box ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 2.5;
+    font-weight: 100;
+}
+.single-box h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    /* margin-left: 73px; */
+    padding: 15px 121px 23px 33px;
+
+
+
+}
+
+.h2-fot{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 100px;
+  font-family: "Gill Sans Ultra Bold Condensed";
+}
+
+#basic-addon2 {
+    background: #fe1e4f;
+    color: #fff;
+}
+.socials i {
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+
+
+.socials{
+    margin-left: 50px;
+    text-decoration: none;
+    transition: all .3s;
+
+
+}
+
+
+
+.icon00{
+    margin-left: 20px;
+}
+
+
+
+
+
+.socials :hover{
+    color: chartreuse;
+
+}
+
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.block-fot{
+    background-color: #333333;
+    color: white;
+    height: 50px;
+    margin-top: 17px;
+    padding: 33px 0px 0px 157px;
+}
+
+
+
+
+.maps{
+
+    margin-left: 60px;
+    margin-bottom: 20px;
+}

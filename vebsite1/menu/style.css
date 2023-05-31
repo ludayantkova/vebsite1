@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital@1&display=swap');
+
+body{
+    font-family: 'Tinos', serif;
+    font-size: 16px;
+    line-height:22px;
+    color: #222;
+    background-image: url("img/fon-z.jpg");
+    linear-gradient(
+rgba(0, 0, 0, 0.7),
+rgba(0, 0, 0, 0.7)
+)
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.main{
+    width: 1170px;
+    margin: 100px auto;
+
+}
+
+
+.section-title1, section-title2{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-left: 490px;
+
+}
+
+
+.section-title1, section-title2, h2{
+    text-transform: capitalize;
+    font-size: 35px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+
+
+
+}
+
+.section-title1 h2:before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #c2d70a;
+    bottom: 9px;
+    left: 74%;
+    transform: translateX(-49%);
+
+}
+
+.section-title2 h2:before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #c2d70a;
+    bottom: 9px;
+    left: 51%;
+    transform: translateX(-49%);
+
+}
+
+
+.hhh2{
+    text-align: center;
+    margin-left: 543px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+.hh2 span{
+    color: #c2d70a;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+
+
+.menus{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-colomn{
+    width: 31%;
+}
+
+
+.menu-colomn h4{
+    text-transform: capitalize;
+    font-size: 33px;
+    font-weight: 500;
+    margin-bottom: -34px;
+    position: relative;
+    padding-bottom: 10px;
+    color: #c2d70a;
+    margin-left: 150px;
+    bottom: 30px;
+
+}
+
+.menu-colomn h4 :before{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #000000;
+    bottom: 0;
+
+}
+
+.single-menu{
+    display: flex;
+    align-items: center;
+
+    margin-top: 40px;
+
+
+
+}
+
+.single-menu img {
+    border-radius: 50%;
+    max-width: 110px;
+
+    padding: 3px;
+    margin-right: 15px;
+    transition: .3s;
+
+
+
+}
+
+
+.single-menu :hover {
+    transform: rotate(360deg);
+}
+
+
+.single-menu .menu-content h5{
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px dashed #000000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #c2d70a;
+
+
+
+}
+
+
+.single-menu .menu-content h5 span{
+    color: rgb(247, 1, 1);
+    float: right;
+    font-weight: 600;
+    font-style: italic;
+
+
+
+}
+
+
+.menu-content p{
+    color: #ffffff;
+}
+
+.section-title p{
+    color: #ffffff;
+}
+
+
+
+
